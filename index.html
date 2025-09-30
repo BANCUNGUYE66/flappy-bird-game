@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="scoreBoard">0</div>
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        
+        <div id="startScreen">
+            <h1>FLAPPY BIRD</h1>
+            <p>Press SPACE or Click to Flap</p>
+            <p>Avoid the Pipes!</p>
+            <button class="button" id="startButton">START GAME</button>
+        </div>
+        
+        <div id="gameOverScreen">
+            <h1>GAME OVER</h1>
+            <p>Your Score:</p>
+            <div id="finalScore">0</div>
+            <button class="button" id="restartButton">PLAY AGAIN</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
